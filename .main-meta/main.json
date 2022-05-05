@@ -4,8 +4,8 @@
     "content": {
         "metaDataVersion": "1.3.0",
         "name": "com.microchip.mcu8.mplabx.project.avr64dd32-getting-started-with-dac-mcc-mplabx",
-        "version": " ",
-        "displayName": "",
+        "version": "1.0.0",
+        "displayName": "Getting Started with Digital to Analog Converter (DAC) using the AVR64DD32 Microcontroller Generated with MCC Melody",
         "projectName": "avr64dd32-getting-started-with-dac-mcc-mplabx",
         "shortDescription": "Guide for using DAC for the AVR64DD32 Microcontroller",
         "ide": {
@@ -19,12 +19,12 @@
             }
         ],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "AVR-Dx_DFP",
+            "semverRange": "^2.1.152"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "N/A",
+            "semverRange": " "
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -36,9 +36,21 @@
                 "versionRange": "*"
             }
         },
-        "author": "Bogdan-Alexandru Mariniuc",
-        "peripherals": [],
-        "keywords": [],
+        "author": "Alexandru - Ioan - Cristian Sabiuta",
+        "peripherals": [
+            "DAC"
+        ],
+        "keywords": [
+            "DAC",
+            "MPLAB X",
+            "Getting Started",
+            "Bare Metal",
+            "Digital-to-Analog Converter",
+            "D/A Converter",
+            "Analog Module",
+            "Module",
+            "Voltage Reference"
+        ],
         "additionalData": {
             "longDescription": {
                 "metaDataVersion": "1.0.0",
