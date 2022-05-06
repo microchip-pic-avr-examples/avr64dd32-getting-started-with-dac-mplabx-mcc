@@ -23,8 +23,8 @@
             "semverRange": "^2.1.152"
         },
         "configurator": {
-            "name": "N/A",
-            "semverRange": " "
+            "name": "MCC",
+            "semverRange": ">=5.1.1"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -43,12 +43,9 @@
         "keywords": [
             "DAC",
             "MPLAB X",
+            "MCC",
             "Getting Started",
-            "Bare Metal",
-            "Digital-to-Analog Converter",
-            "D/A Converter",
             "Analog Module",
-            "Module",
             "Voltage Reference"
         ],
         "additionalData": {
