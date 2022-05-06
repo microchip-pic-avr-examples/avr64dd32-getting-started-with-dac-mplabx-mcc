@@ -7,7 +7,7 @@
         "version": "1.0.0",
         "displayName": "Getting Started with Digital to Analog Converter (DAC) using the AVR64DD32 Microcontroller Generated with MCC Melody",
         "projectName": "avr64dd32-getting-started-with-dac-mcc-mplabx",
-        "shortDescription": "Guide for using DAC for the AVR64DD32 Microcontroller",
+        "shortDescription": "Guide for using DAC for the AVR64DD32 microcontroller",
         "ide": {
             "name": "MPLAB X",
             "semverRange": ">=6.0.0"
