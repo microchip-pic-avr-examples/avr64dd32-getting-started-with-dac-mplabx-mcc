@@ -4,10 +4,10 @@
 
 <br>The repository contains four MPLAB® X projects:
 
-1.  [Generating a Constant Analog Signal](#1-generating-a-constant-analog-signal-using-10-bit-dac) - This use case shows how to generate a constant signal using the DAC peripheral.
-2.  [Generating a Sine Wave Signal](#2-generating-a-sine-wave-signal-using-10-bit-dac) - This use case shows how to generate a Sine Wave signal using the DAC peripheral.
+1.  [Generating a Constant Analog Signal](#1-generating-a-constant-analog-signal-using-the-10-bit-dac) - This use case shows how to generate a constant signal using the DAC peripheral.
+2.  [Generating a Sine Wave Signal](#2-generating-a-sine-wave-signal-using-the-10-bit-dac) - This use case shows how to generate a Sine Wave signal using the DAC peripheral.
 3.  [Generating a Amplitude Modulated Signal](#3-generating-a-amplitude-modulated-signal-using-the-10-bit-dac) - This use case shows how to generate the Amplitude Modulated (AM) signal using the DAC peripheral.
-4.  [Reading DAC with ADC](#4-reading-dac-internally-with-adc) - This project provides a bare metal code example for a basic DAC configuration. This use case shows how to read the voltage on DAC0 output with the Analog to Digital Converter (ADC0).
+4.  [Reading DAC with ADC](#4-reading-the-dac-internally-with-the-adc) - This project provides a bare metal code example for a basic DAC configuration. This use case shows how to read the voltage on DAC0 output with the Analog to Digital Converter (ADC0).
 
 ## Related Documentation
 
@@ -34,7 +34,7 @@ More details and code examples on the AVR64DD32 can be found at the following li
 
 ## Operation
 
-To program the Curiosity Nano board with this MPLAB® X project, follow the steps provided in the [How to Program the Curiosity Nano board](#how-to-program-the-curiosity-nano-board) chapter.<br><br>
+To program the Curiosity Nano board with this MPLAB® X project, follow the steps provided in the [How to Program the Curiosity Nano board](#how-to-program-curiosity-nano-board) chapter.<br><br>
 
 ## 1. Generating a Constant Analog Signal Using the 10-Bit DAC
 
@@ -62,7 +62,7 @@ The following configurations must be made for this project:
 ### 1.3 Summary
 
 This example represents a basic functionality of the DAC peripheral. The DAC peripheral is used to generate a constant signal.<br><br>
-[Back to top](#getting-started-with-digital-to-analog-convertor-dac-using-the-avr64dd32-generated-with-mcc-melody)<br>
+[Back to top](#getting-started-with-digital-to-analog-converter-dac-using-the-avr64dd32-microcontroller-generated-with-mcc-melody)<br>
 
 ## 2. Generating a Sine Wave Signal Using the 10-Bit DAC
 
@@ -90,7 +90,7 @@ The following configurations must be made for this project:
 ### 2.3 Summary
 
 This example represents a basic functionality of the DAC peripheral. The DAC peripheral is used to generate a Sine Wave signal by setting the output in a loop.<br><br>
-[Back to top](#getting-started-with-digital-to-analog-convertor-dac-using-the-avr64dd32-generated-with-mcc-melody)<br>
+[Back to top](#getting-started-with-digital-to-analog-converter-dac-using-the-avr64dd32-microcontroller-generated-with-mcc-melody)<br>
 
 ## 3. Generating a Amplitude Modulated Signal Using the 10-Bit DAC
 
@@ -127,7 +127,7 @@ The following configurations must be made for this project:
 ### 3.3 Summary
 
 This example represents a basic functionality of the DAC peripheral. The DAC peripheral is used to generate an AM signal using an external signal.<br><br>
-[Back to top](#getting-started-with-digital-to-analog-convertor-dac-using-the-avr64dd32-generated-with-mcc-melody)<br>
+[Back to top](#getting-started-with-digital-to-analog-converter-dac-using-the-avr64dd32-microcontroller-generated-with-mcc-melody)<br>
 
 ## 4. Reading the DAC Internally with the ADC
 
@@ -160,7 +160,7 @@ The following configurations must be made for this project:
 ### 4.3 Summary
 
 This example represents a basic functionality of the DAC peripheral. The ADC peripheral reads the value from a step-by-step incremented value for the DAC peripheral.<br><br>
-[Back to top](#getting-started-with-digital-to-analog-convertor-dac-the-using-avr64dd32-generated-with-mcc-melody)<br>
+[Back to top](#getting-started-with-digital-to-analog-converter-dac-using-the-avr64dd32-microcontroller-generated-with-mcc-melody)<br>
 
 ## How to Program Curiosity Nano board
 
@@ -197,4 +197,4 @@ This chapter shows how to use the MPLAB® X IDE to program an AVR® device with 
 - [Back to 2. Generating a Sine Wave Signal](#2-generating-a-sine-wave-signal-using-the-10-bit-dac)
 - [Back to 3. Generating a Amplitude Modulated Signal](#3-generating-a-amplitude-modulated-signal-using-the-10-bit-dac)
 - [Back to 4. Reading DAC with ADC](#4-reading-the-dac-internally-with-the-adc)
-- [Back to top](#getting-started-with-digital-to-analog-convertor-dac-the-using-avr64dd32-generated-with-mcc-melody)
+- [Back to top](#getting-started-with-digital-to-analog-converter-dac-using-the-avr64dd32-microcontroller-generated-with-mcc-melody)
